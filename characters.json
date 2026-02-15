@@ -1,0 +1,212 @@
+{
+  "10000001": {
+    "name": "Kate",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Kate"
+  },
+  "10000002": {
+    "name": "Kamisato Ayaka",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Ayaka"
+  },
+  "10000003": {
+    "name": "Jean",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Qin"
+  },
+  "10000005": {
+    "name": "Traveler",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_PlayerBoy"
+  },
+  "10000006": {
+    "name": "Lisa",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Lisa"
+  },
+  "10000007": {
+    "name": "Traveler",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_PlayerGirl"
+  },
+  "10000014": {
+    "name": "Barbara",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Barbara"
+  },
+  "10000015": {
+    "name": "Kaeya",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Kaeya"
+  },
+  "10000016": {
+    "name": "Diluc",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Diluc"
+  },
+  "10000020": {
+    "name": "Razor",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Razor"
+  },
+  "10000021": {
+    "name": "Amber",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Ambor"
+  },
+  "10000022": {
+    "name": "Venti",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Venti"
+  },
+  "10000023": {
+    "name": "Xiangling",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Xiangling"
+  },
+  "10000024": {
+    "name": "Beidou",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Beidou"
+  },
+  "10000025": {
+    "name": "Xingqiu",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Xingqiu"
+  },
+  "10000026": {
+    "name": "Xiao",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Xiao"
+  },
+  "10000027": {
+    "name": "Ningguang",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Ningguang"
+  },
+  "10000029": {
+    "name": "Klee",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Klee"
+  },
+  "10000030": {
+    "name": "Zhongli",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Zhongli"
+  },
+  "10000031": {
+    "name": "Fischl",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Fischl"
+  },
+  "10000032": {
+    "name": "Bennett",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Bennett"
+  },
+  "10000033": {
+    "name": "Tartaglia",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Tartaglia"
+  },
+  "10000034": {
+    "name": "Noelle",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Noel"
+  },
+  "10000035": {
+    "name": "Qiqi",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Qiqi"
+  },
+  "10000036": {
+    "name": "Chongyun",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Chongyun"
+  },
+  "10000037": {
+    "name": "Ganyu",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Ganyu"
+  },
+  "10000038": {
+    "name": "Albedo",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Albedo"
+  },
+  "10000039": {
+    "name": "Diona",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Diona"
+  },
+  "10000041": {
+    "name": "Mona",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Mona"
+  },
+  "10000042": {
+    "name": "Keqing",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Keqing"
+  }
+}

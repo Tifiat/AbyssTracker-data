@@ -1,0 +1,30 @@
+{
+  "version": "2026-02-15",
+  "generated_at": "2026-02-15T14:55:25+00:00",
+  "source": {
+    "repo": "DimbreathBot/AnimeGameData",
+    "avatars": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/master/ExcelBinOutput/AvatarExcelConfigData.json",
+    "weapons": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/master/ExcelBinOutput/WeaponExcelConfigData.json",
+    "textmap_en": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/master/TextMap/TextMapEN.json"
+  },
+  "counts": {
+    "characters": 30,
+    "weapons": 30,
+    "hash_characters": 29,
+    "hash_weapons": 23
+  },
+  "files": {
+    "characters.json": {
+      "sha256": "e56af3e0f3626776d43f65cc5cbfe4cead77a3371ca4cb7cd19cd6bbda6cb1c7"
+    },
+    "weapons.json": {
+      "sha256": "4df6f6f326b5fce44c9b2917b531a944d01947a6624ab5f832799e631e09ef1f"
+    },
+    "hash_index_characters.json": {
+      "sha256": "fe7bc88e24f8bf00aff670dedf886c3f91db50a77dd4b7abe290b66cda2caa5f"
+    },
+    "hash_index_weapons.json": {
+      "sha256": "1fed9204ceb64fb5ef56e221ed4044d51fbeadd032009c6c39ef2655b2b743fa"
+    }
+  }
+}

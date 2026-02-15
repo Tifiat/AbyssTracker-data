@@ -1,0 +1,182 @@
+{
+  "10002": {
+    "name": "#10002",
+    "rarity": 1,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Template"
+  },
+  "10003": {
+    "name": "#10003",
+    "rarity": 1,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Template"
+  },
+  "10004": {
+    "name": "#10004",
+    "rarity": 1,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Template"
+  },
+  "10005": {
+    "name": "#10005",
+    "rarity": 1,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_BookTemplate"
+  },
+  "10006": {
+    "name": "#10006",
+    "rarity": 1,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Template"
+  },
+  "10008": {
+    "name": "#10008",
+    "rarity": 1,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Template"
+  },
+  "10009": {
+    "name": "#10009",
+    "rarity": 1,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Template"
+  },
+  "11101": {
+    "name": "Dull Blade",
+    "rarity": 1,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Blunt"
+  },
+  "11201": {
+    "name": "Silver Sword",
+    "rarity": 2,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Silver"
+  },
+  "11301": {
+    "name": "Cool Steel",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Steel"
+  },
+  "11302": {
+    "name": "Harbinger of Dawn",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Dawn"
+  },
+  "11303": {
+    "name": "Traveler's Handy Sword",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Traveler"
+  },
+  "11304": {
+    "name": "Dark Iron Sword",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Darker"
+  },
+  "11305": {
+    "name": "Fillet Blade",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Sashimi"
+  },
+  "11306": {
+    "name": "Skyrider Sword",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Mitsurugi"
+  },
+  "11401": {
+    "name": "Favonius Sword",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Zephyrus"
+  },
+  "11402": {
+    "name": "The Flute",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Troupe"
+  },
+  "11403": {
+    "name": "Sacrificial Sword",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Fossil"
+  },
+  "11404": {
+    "name": "Royal Longsword",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Theocrat"
+  },
+  "11405": {
+    "name": "Lion's Roar",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Rockkiller"
+  },
+  "11406": {
+    "name": "Prototype Rancour",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Proto"
+  },
+  "11407": {
+    "name": "Iron Sting",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Exotic"
+  },
+  "11408": {
+    "name": "Blackcliff Longsword",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Blackrock"
+  },
+  "11409": {
+    "name": "The Black Sword",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Bloodstained"
+  },
+  "11410": {
+    "name": "The Alley Flash",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Outlaw"
+  },
+  "11411": {
+    "name": "#11411",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Blunt"
+  },
+  "11412": {
+    "name": "Sword of Descension",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Psalmus"
+  },
+  "11413": {
+    "name": "Festering Desire",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Magnum"
+  },
+  "11414": {
+    "name": "Amenoma Kageuchi",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Bakufu"
+  },
+  "11415": {
+    "name": "Cinnabar Spindle",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Opus"
+  }
+}
