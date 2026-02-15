@@ -164,6 +164,20 @@ def build_weapons(weapons: list, textmap: dict) -> dict:
 
     return out
 
+def to_bgr(img):
+    if img is None:
+        return None
+    if len(img.shape) == 3 and img.shape[2] == 4:
+        b, g, r, a = cv2.split(img)
+        alpha = a.astype(np.float32) / 255.0
+        bg = np.full_like(b, 180, dtype=np.uint8)  # серый фон
+        # композит по каналу
+        def comp(ch):
+            return (ch.astype(np.float32) * alpha + bg.astype(np.float32) * (1 - alpha)).astype(np.uint8)
+        return cv2.merge([comp(b), comp(g), comp(r)])
+    if len(img.shape) == 2:
+        return cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
+    return img
 
 def build_hash_index(items: dict) -> dict:
     """
@@ -179,9 +193,10 @@ def build_hash_index(items: dict) -> dict:
         url = f"{ENKA_UI}/{icon_name}.png"
         try:
             png = http_get_bytes(url)
-            img = cv2.imdecode(np.frombuffer(png, np.uint8), cv2.IMREAD_COLOR)
+            img = cv2.imdecode(np.frombuffer(png, np.uint8), cv2.IMREAD_UNCHANGED)
             if img is None:
                 continue
+            img = to_bgr(img)    
             idx[str(_id)] = dhash_hex(img)
         except Exception:
             # если какой-то конкретный ассет временно не доступен — просто пропускаем
