@@ -27,8 +27,8 @@ jobs:
 
       - name: Build pack
         env:
-          N_CHARACTERS: "30"
-          N_WEAPONS: "30"
+          N_CHARACTERS: "300"
+          N_WEAPONS: "300"
         run: |
           python tools/build_pack.py
 
