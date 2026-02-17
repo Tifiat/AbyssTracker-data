@@ -208,5 +208,831 @@
     "element": null,
     "weapon_type": "Sword",
     "icon_name": "UI_AvatarIcon_Keqing"
+  },
+  "10000043": {
+    "name": "Sucrose",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Sucrose"
+  },
+  "10000044": {
+    "name": "Xinyan",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Xinyan"
+  },
+  "10000045": {
+    "name": "Rosaria",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Rosaria"
+  },
+  "10000046": {
+    "name": "Hu Tao",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Hutao"
+  },
+  "10000047": {
+    "name": "Kaedehara Kazuha",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Kazuha"
+  },
+  "10000048": {
+    "name": "Yanfei",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Feiyan"
+  },
+  "10000049": {
+    "name": "Yoimiya",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Yoimiya"
+  },
+  "10000050": {
+    "name": "Thoma",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Tohma"
+  },
+  "10000051": {
+    "name": "Eula",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Eula"
+  },
+  "10000052": {
+    "name": "Raiden Shogun",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Shougun"
+  },
+  "10000053": {
+    "name": "Sayu",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Sayu"
+  },
+  "10000054": {
+    "name": "Sangonomiya Kokomi",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Kokomi"
+  },
+  "10000055": {
+    "name": "Gorou",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Gorou"
+  },
+  "10000056": {
+    "name": "Kujou Sara",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Sara"
+  },
+  "10000057": {
+    "name": "Arataki Itto",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Itto"
+  },
+  "10000058": {
+    "name": "Yae Miko",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Yae"
+  },
+  "10000059": {
+    "name": "Shikanoin Heizou",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Heizo"
+  },
+  "10000060": {
+    "name": "Yelan",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Yelan"
+  },
+  "10000061": {
+    "name": "Kirara",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Momoka"
+  },
+  "10000063": {
+    "name": "Shenhe",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Shenhe"
+  },
+  "10000064": {
+    "name": "Yun Jin",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Yunjin"
+  },
+  "10000065": {
+    "name": "Kuki Shinobu",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Shinobu"
+  },
+  "10000066": {
+    "name": "Kamisato Ayato",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Ayato"
+  },
+  "10000067": {
+    "name": "Collei",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Collei"
+  },
+  "10000068": {
+    "name": "Dori",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Dori"
+  },
+  "10000069": {
+    "name": "Tighnari",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Tighnari"
+  },
+  "10000070": {
+    "name": "Nilou",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Nilou"
+  },
+  "10000071": {
+    "name": "Cyno",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Cyno"
+  },
+  "10000072": {
+    "name": "Candace",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Candace"
+  },
+  "10000073": {
+    "name": "Nahida",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Nahida"
+  },
+  "10000074": {
+    "name": "Layla",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Layla"
+  },
+  "10000075": {
+    "name": "Wanderer",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Wanderer"
+  },
+  "10000076": {
+    "name": "Faruzan",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Faruzan"
+  },
+  "10000077": {
+    "name": "Yaoyao",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Yaoyao"
+  },
+  "10000078": {
+    "name": "Alhaitham",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Alhatham"
+  },
+  "10000079": {
+    "name": "Dehya",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Dehya"
+  },
+  "10000080": {
+    "name": "Mika",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Mika"
+  },
+  "10000081": {
+    "name": "Kaveh",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Kaveh"
+  },
+  "10000082": {
+    "name": "Baizhu",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Baizhuer"
+  },
+  "10000083": {
+    "name": "Lynette",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Linette"
+  },
+  "10000084": {
+    "name": "Lyney",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Liney"
+  },
+  "10000085": {
+    "name": "Freminet",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Freminet"
+  },
+  "10000086": {
+    "name": "Wriothesley",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Wriothesley"
+  },
+  "10000087": {
+    "name": "Neuvillette",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Neuvillette"
+  },
+  "10000088": {
+    "name": "Charlotte",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Charlotte"
+  },
+  "10000089": {
+    "name": "Furina",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Furina"
+  },
+  "10000090": {
+    "name": "Chevreuse",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Chevreuse"
+  },
+  "10000091": {
+    "name": "Navia",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Navia"
+  },
+  "10000092": {
+    "name": "Gaming",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Gaming"
+  },
+  "10000093": {
+    "name": "Xianyun",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Liuyun"
+  },
+  "10000094": {
+    "name": "Chiori",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Chiori"
+  },
+  "10000095": {
+    "name": "Sigewinne",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Sigewinne"
+  },
+  "10000096": {
+    "name": "Arlecchino",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Arlecchino"
+  },
+  "10000097": {
+    "name": "Sethos",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Sethos"
+  },
+  "10000098": {
+    "name": "Clorinde",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Clorinde"
+  },
+  "10000099": {
+    "name": "Emilie",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Emilie"
+  },
+  "10000100": {
+    "name": "Kachina",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Kachina"
+  },
+  "10000101": {
+    "name": "Kinich",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Kinich"
+  },
+  "10000102": {
+    "name": "Mualani",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Mualani"
+  },
+  "10000103": {
+    "name": "Xilonen",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Xilonen"
+  },
+  "10000104": {
+    "name": "Chasca",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Chasca"
+  },
+  "10000105": {
+    "name": "Ororon",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Olorun"
+  },
+  "10000106": {
+    "name": "Mavuika",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Mavuika"
+  },
+  "10000107": {
+    "name": "Citlali",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Citlali"
+  },
+  "10000108": {
+    "name": "Lan Yan",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Lanyan"
+  },
+  "10000109": {
+    "name": "Yumemizuki Mizuki",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Mizuki"
+  },
+  "10000110": {
+    "name": "Iansan",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Iansan"
+  },
+  "10000111": {
+    "name": "Varesa",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Varesa"
+  },
+  "10000112": {
+    "name": "Escoffier",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Escoffier"
+  },
+  "10000113": {
+    "name": "Ifa",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Ifa"
+  },
+  "10000114": {
+    "name": "Skirk",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_SkirkNew"
+  },
+  "10000115": {
+    "name": "Dahlia",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Dahlia"
+  },
+  "10000116": {
+    "name": "Ineffa",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Ineffa"
+  },
+  "10000119": {
+    "name": "Lauma",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Lauma"
+  },
+  "10000120": {
+    "name": "Flins",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Flins"
+  },
+  "10000121": {
+    "name": "Aino",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Aino"
+  },
+  "10000122": {
+    "name": "Nefer",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Nefer"
+  },
+  "10000123": {
+    "name": "Durin",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Durin"
+  },
+  "10000124": {
+    "name": "Jahoda",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Jahoda"
+  },
+  "10000125": {
+    "name": "Columbina",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Columbina"
+  },
+  "10000126": {
+    "name": "Zibai",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Zibai"
+  },
+  "10000127": {
+    "name": "Illuga",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Illuga"
+  },
+  "10000901": {
+    "name": "Mavuika (Trial)",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Mavuika"
+  },
+  "10000902": {
+    "name": "Hu Tao (Trial)",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Hutao"
+  },
+  "10000903": {
+    "name": "Ineffa",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Ineffa"
+  },
+  "10000904": {
+    "name": "Columbina",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Columbina"
+  },
+  "10000998": {
+    "name": "UGC (Official Male)",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_PlayerBoy"
+  },
+  "10000999": {
+    "name": "UGC (Official Female)",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_PlayerGirl"
+  },
+  "11000008": {
+    "name": "Party Test #4",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Side_Ambor"
+  },
+  "11000009": {
+    "name": "Background Test",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Side_Kate"
+  },
+  "11000010": {
+    "name": "Naked Model #1",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Side_Kate"
+  },
+  "11000011": {
+    "name": "Naked Man",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Side_Kate"
+  },
+  "11000013": {
+    "name": "Co-Op Test",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Side_Kate"
+  },
+  "11000017": {
+    "name": "Adult Male Body Test",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Qin"
+  },
+  "11000018": {
+    "name": "Adult Female Body Test",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Qin"
+  },
+  "11000019": {
+    "name": "Girl Body Test",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Qin"
+  },
+  "11000025": {
+    "name": "Akuliya",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Razor"
+  },
+  "11000026": {
+    "name": "Yaoyao (Trial)",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Qin"
+  },
+  "11000027": {
+    "name": "Girl Body Test - #2 Machine",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Kate"
+  },
+  "11000028": {
+    "name": "Shiro Maiden",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Ayaka"
+  },
+  "11000030": {
+    "name": "Greatsword Maiden",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Qin"
+  },
+  "11000031": {
+    "name": "Late Weapon Test A",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Kate"
+  },
+  "11000032": {
+    "name": "Late Weapon Test B",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Kate"
+  },
+  "11000033": {
+    "name": "Late Weapon Test C",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Kate"
+  },
+  "11000035": {
+    "name": "Lance Warrioress",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Xiangling"
+  },
+  "11000036": {
+    "name": "Swordswoman Test",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Kate"
+  },
+  "11000037": {
+    "name": "Rx White-Box",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_PlayerBoy"
+  },
+  "11000038": {
+    "name": "Boy Body Test",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Kate"
+  },
+  "11000039": {
+    "name": "Adult Male Body Test",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Kate"
+  },
+  "11000040": {
+    "name": "Female Lead New Normal Attack",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_PlayerGirl"
+  },
+  "11000041": {
+    "name": "Male Lead New Normal Attack",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_PlayerBoy"
+  },
+  "11000042": {
+    "name": "Chongyun (Test)",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_PlayerBoy"
+  },
+  "11000043": {
+    "name": "Test Character",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Qin"
+  },
+  "11000044": {
+    "name": "Qiqi (Test)",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_Qin"
+  },
+  "11000045": {
+    "name": "Diona (Test)",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Bow",
+    "icon_name": "UI_AvatarIcon_Qin"
+  },
+  "11000046": {
+    "name": "Pyro Archon (Test)",
+    "rarity": 4,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Qin"
+  },
+  "11000998": {
+    "name": "UGC (Test Character Prototype Male)",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_PlayerBoy"
+  },
+  "11000999": {
+    "name": "UGC (Test Character Prototype Female)",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Sword",
+    "icon_name": "UI_AvatarIcon_PlayerGirl"
   }
 }
