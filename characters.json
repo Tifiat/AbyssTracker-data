@@ -783,6 +783,13 @@
     "weapon_type": "Polearm",
     "icon_name": "UI_AvatarIcon_Illuga"
   },
+  "10000128": {
+    "name": "Varka",
+    "rarity": 5,
+    "element": null,
+    "weapon_type": "Claymore",
+    "icon_name": "UI_AvatarIcon_Varka"
+  },
   "10000901": {
     "name": "Mavuika (Trial)",
     "rarity": 5,

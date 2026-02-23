@@ -677,6 +677,12 @@
     "type": "Claymore",
     "icon_name": "UI_EquipIcon_Claymore_RadianceSword"
   },
+  "12515": {
+    "name": "Gest of the Mighty Wolf",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_EnsisAquilonis"
+  },
   "13101": {
     "name": "Beginner's Protector",
     "rarity": 1,
