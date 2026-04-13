@@ -281,10 +281,10 @@ def build_characters(avatars: list, textmap: dict, depot_map: Dict[int, dict], s
             continue
 
         icon = str(a.get("iconName"))
-        if icon_name == "UI_AvatarIcon_Kate":
+        if icon == "UI_AvatarIcon_Kate":
             continue
 
-        if icon_name.startswith("UI_AvatarIcon_Player"):
+        if icon.startswith("UI_AvatarIcon_Player"):
             continue
         grouped.setdefault(icon, []).append(a)
 
