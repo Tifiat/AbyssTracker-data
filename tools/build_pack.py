@@ -3,6 +3,7 @@ import json
 import hashlib
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
+from typing import Optional, Dict, List, Tuple
 
 import cv2
 import numpy as np
@@ -41,55 +42,9 @@ def http_get_bytes(url: str) -> bytes:
         return r.read()
 
 
-def dhash_hex(img_bgr: np.ndarray, hash_size: int = 8) -> str:
-    gray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
-    resized = cv2.resize(gray, (hash_size + 1, hash_size), interpolation=cv2.INTER_AREA)
-    diff = resized[:, 1:] > resized[:, :-1]
-    bits = diff.flatten()
-
-    val = 0
-    for b in bits:
-        val = (val << 1) | int(bool(b))
-
-    width = (hash_size * hash_size + 3) // 4
-    return f"{val:0{width}x}"
-
-
-def rarity_from_quality(q: str) -> int | None:
-    m = {
-        "QUALITY_ORANGE": 5,
-        "QUALITY_PURPLE": 4,
-        "QUALITY_BLUE": 3,
-        "QUALITY_GREEN": 2,
-        "QUALITY_WHITE": 1,
-    }
-    return m.get(q)
-
-
-def weapon_type_short(wt: str) -> str | None:
-    m = {
-        "WEAPON_SWORD_ONE_HAND": "Sword",
-        "WEAPON_CLAYMORE": "Claymore",
-        "WEAPON_POLE": "Polearm",
-        "WEAPON_CATALYST": "Catalyst",
-        "WEAPON_BOW": "Bow",
-    }
-    return m.get(wt)
-
-
-def normalize_element(elem: str | None) -> str | None:
-    m = {
-        "Fire": "Pyro",
-        "Water": "Hydro",
-        "Wind": "Anemo",
-        "Electric": "Electro",
-        "Grass": "Dendro",
-        "Rock": "Geo",
-        "Ice": "Cryo",
-    }
-    if elem is None:
-        return None
-    return m.get(str(elem), None)
+def save_json(path: str, obj: object):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
 
 
 def sha256_file(path: str) -> str:
@@ -100,17 +55,48 @@ def sha256_file(path: str) -> str:
     return h.hexdigest()
 
 
-def save_json(path: str, obj: object):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
+def rarity_from_quality(q: str) -> Optional[int]:
+    m = {
+        "QUALITY_ORANGE": 5,
+        "QUALITY_PURPLE": 4,
+        "QUALITY_BLUE": 3,
+        "QUALITY_GREEN": 2,
+        "QUALITY_WHITE": 1,
+    }
+    return m.get(q)
 
 
-def textmap_lookup(textmap: dict, key) -> str | None:
+def weapon_type_short(wt: str) -> Optional[str]:
+    m = {
+        "WEAPON_SWORD_ONE_HAND": "Sword",
+        "WEAPON_CLAYMORE": "Claymore",
+        "WEAPON_POLE": "Polearm",
+        "WEAPON_CATALYST": "Catalyst",
+        "WEAPON_BOW": "Bow",
+    }
+    return m.get(wt)
+
+
+def normalize_element(elem: Optional[str]) -> Optional[str]:
+    m = {
+        "Fire": "Pyro",
+        "Water": "Hydro",
+        "Wind": "Anemo",
+        "Electric": "Electro",
+        "Grass": "Dendro",
+        "Rock": "Geo",
+        "Ice": "Cryo",
+    }
+    if not elem:
+        return None
+    return m.get(str(elem))
+
+
+def textmap_lookup(textmap: dict, key) -> Optional[str]:
     if key is None:
         return None
 
-    s = str(key)
-    value = textmap.get(s)
+    value = textmap.get(str(key))
     if value is None:
         value = textmap.get(key)
 
@@ -124,6 +110,36 @@ def textmap_lookup(textmap: dict, key) -> str | None:
         return None
 
     return value
+
+
+def fallback_name_from_avatar_icon(icon_name: str) -> str:
+    prefix = "UI_AvatarIcon_"
+    name = str(icon_name)
+    if name.startswith(prefix):
+        name = name[len(prefix):]
+    return name.replace("_", " ").strip() or str(icon_name)
+
+
+def fallback_name_from_weapon_icon(icon_name: str) -> str:
+    prefix = "UI_EquipIcon_"
+    name = str(icon_name)
+    if name.startswith(prefix):
+        name = name[len(prefix):]
+    return name.replace("_", " ").strip() or str(icon_name)
+
+
+def dhash_hex(img_bgr: np.ndarray, hash_size: int = 8) -> str:
+    gray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
+    resized = cv2.resize(gray, (hash_size + 1, hash_size), interpolation=cv2.INTER_AREA)
+    diff = resized[:, 1:] > resized[:, :-1]
+    bits = diff.flatten()
+
+    val = 0
+    for b in bits:
+        val = (val << 1) | int(bool(b))
+
+    width = (hash_size * hash_size + 3) // 4
+    return f"{val:0{width}x}"
 
 
 def to_bgr(img):
@@ -149,24 +165,52 @@ def to_bgr(img):
     return img
 
 
-def build_skill_maps(skill_depots: list, avatar_skills: list) -> tuple[dict, dict]:
+# ====== CHARACTER HELPERS ======
+def build_skill_maps(skill_depots: list, avatar_skills: list) -> Tuple[Dict[int, dict], Dict[int, dict]]:
     depot_map = {}
     skill_map = {}
 
     for d in skill_depots:
-        depot_id = d.get("id")
-        if depot_id:
-            depot_map[int(depot_id)] = d
+        _id = d.get("id")
+        if _id is not None:
+            depot_map[int(_id)] = d
 
     for s in avatar_skills:
-        skill_id = s.get("id")
-        if skill_id:
-            skill_map[int(skill_id)] = s
+        _id = s.get("id")
+        if _id is not None:
+            skill_map[int(_id)] = s
 
     return depot_map, skill_map
 
 
-def infer_element_from_skill_depot(skill_depot_id, depot_map: dict, skill_map: dict) -> str | None:
+def get_depot_skill_ids(depot: dict) -> List[int]:
+    ids = []
+
+    energy_skill = depot.get("energySkill")
+    if energy_skill:
+        try:
+            ids.append(int(energy_skill))
+        except Exception:
+            pass
+
+    for skill_id in depot.get("skills", []) or []:
+        if skill_id:
+            try:
+                ids.append(int(skill_id))
+            except Exception:
+                pass
+
+    for skill_id in depot.get("subSkills", []) or []:
+        if skill_id:
+            try:
+                ids.append(int(skill_id))
+            except Exception:
+                pass
+
+    return ids
+
+
+def infer_element_from_skill_depot(skill_depot_id, depot_map: Dict[int, dict], skill_map: Dict[int, dict]) -> Optional[str]:
     if not skill_depot_id:
         return None
 
@@ -174,118 +218,113 @@ def infer_element_from_skill_depot(skill_depot_id, depot_map: dict, skill_map: d
     if not depot:
         return None
 
-    energy_skill_id = depot.get("energySkill")
-    if not energy_skill_id:
-        return None
+    for skill_id in get_depot_skill_ids(depot):
+        skill = skill_map.get(skill_id)
+        if not skill:
+            continue
 
-    skill = skill_map.get(int(energy_skill_id))
-    if not skill:
-        return None
+        elem = normalize_element(skill.get("costElemType"))
+        if elem:
+            return elem
 
-    return normalize_element(skill.get("costElemType"))
+    return None
 
 
-def is_playable_avatar_record(a: dict) -> bool:
+def is_candidate_avatar(a: dict) -> bool:
     icon = str(a.get("iconName", ""))
-    use_type = str(a.get("useType", ""))
-    avatar_identity_type = str(a.get("avatarIdentityType", ""))
-
     if not icon.startswith("UI_AvatarIcon_"):
         return False
-
     if "_Side_" in icon:
         return False
 
-    if use_type != "AVATAR_FORMAL":
+    rarity = rarity_from_quality(str(a.get("qualityType", "")))
+    if rarity is None:
         return False
 
-    if avatar_identity_type not in {"AVATAR_IDENTITY_NORMAL", "AVATAR_IDENTITY_MASTER"}:
+    weapon_type = weapon_type_short(str(a.get("weaponType", "")))
+    if not weapon_type:
         return False
 
     return True
 
 
-def is_suspicious_avatar_id(_id: int) -> bool:
+def candidate_score_for_duplicate(a: dict, element: Optional[str], has_textmap_name: bool) -> tuple:
+    _id = int(a.get("id", 0) or 0)
+    promote_id = int(a.get("avatarPromoteId", 0) or 0)
+    feature_tag_group_id = int(a.get("featureTagGroupID", 0) or 0)
+    skill_depot_id = int(a.get("skillDepotId", 0) or 0)
+
+    id_suffix = _id % 1000
+    depot_prefix = skill_depot_id // 100 if skill_depot_id else 0
+
     return (
-        10000900 <= _id <= 10000999
-        or 11000000 <= _id <= 11999999
+        1 if str(a.get("useType", "")) == "AVATAR_FORMAL" else 0,
+        1 if str(a.get("avatarIdentityType", "")) == "AVATAR_IDENTITY_NORMAL" else 0,
+        1 if feature_tag_group_id == _id else 0,
+        1 if promote_id == id_suffix else 0,
+        1 if skill_depot_id and depot_prefix == promote_id else 0,
+        1 if element else 0,
+        1 if has_textmap_name else 0,
+        1 if _id < 10000900 else 0,
+        -_id,
     )
 
 
-def choose_best_character_candidate(candidates: list[dict]) -> dict:
-    def score(item: dict):
-        _id = int(item["id"])
-        return (
-            1 if item["name"] else 0,
-            1 if item["element"] else 0,
-            1 if item["weapon_type"] else 0,
-            1 if item["rarity"] is not None else 0,
-            0 if is_suspicious_avatar_id(_id) else 1,
-            -_id,
-        )
-
-    return sorted(candidates, key=score, reverse=True)[0]
-
-
 # ====== BUILDERS ======
-def build_characters(avatars: list, textmap: dict, depot_map: dict, skill_map: dict) -> dict:
-    prepared = []
+def build_characters(avatars: list, textmap: dict, depot_map: Dict[int, dict], skill_map: Dict[int, dict]) -> dict:
+    grouped: Dict[str, List[dict]] = {}
 
-    avatars_sorted = sorted(avatars, key=lambda x: int(x.get("id", 0)))
+    avatars_sorted = sorted(avatars, key=lambda x: int(x.get("id", 0) or 0))
 
     for a in avatars_sorted:
-        _id = a.get("id")
-        icon = a.get("iconName")
-        q = a.get("qualityType")
-        wt = a.get("weaponType")
-        name_hash = a.get("nameTextMapHash")
-        skill_depot_id = a.get("skillDepotId")
-
-        if not _id or not icon:
+        if not is_candidate_avatar(a):
             continue
 
-        if not is_playable_avatar_record(a):
-            continue
+        icon = str(a.get("iconName"))
+        grouped.setdefault(icon, []).append(a)
 
-        rarity = rarity_from_quality(str(q))
-        weapon_type = weapon_type_short(str(wt))
-        name = textmap_lookup(textmap, name_hash)
-        element = infer_element_from_skill_depot(skill_depot_id, depot_map, skill_map)
-
-        # Все поля обязательны
-        if not name:
-            continue
-        if rarity is None:
-            continue
-        if not weapon_type:
-            continue
-        if not element:
-            continue
-
-        prepared.append({
-            "id": int(_id),
-            "name": name,
-            "rarity": rarity,
-            "element": element,
-            "weapon_type": weapon_type,
-            "icon_name": str(icon),
-        })
-
-    # Дедуп по icon_name
-    grouped = {}
-    for item in prepared:
-        grouped.setdefault(item["icon_name"], []).append(item)
-
-    deduped = []
+    selected = []
     for icon_name, group in grouped.items():
-        deduped.append(choose_best_character_candidate(group))
+        best_entry = None
+        best_payload = None
+        best_score = None
 
-    deduped.sort(key=lambda x: x["id"])
+        for a in group:
+            _id = int(a.get("id", 0) or 0)
+            rarity = rarity_from_quality(str(a.get("qualityType", "")))
+            weapon_type = weapon_type_short(str(a.get("weaponType", "")))
+            element = infer_element_from_skill_depot(a.get("skillDepotId"), depot_map, skill_map)
+
+            if rarity is None or not weapon_type or not element:
+                continue
+
+            text_name = textmap_lookup(textmap, a.get("nameTextMapHash"))
+            name = text_name or fallback_name_from_avatar_icon(icon_name)
+
+            payload = {
+                "id": _id,
+                "name": name,
+                "rarity": rarity,
+                "element": element,
+                "weapon_type": weapon_type,
+                "icon_name": icon_name,
+            }
+
+            score = candidate_score_for_duplicate(a, element, has_textmap_name=bool(text_name))
+
+            if best_score is None or score > best_score:
+                best_score = score
+                best_entry = a
+                best_payload = payload
+
+        if best_entry is not None and best_payload is not None:
+            selected.append(best_payload)
+
+    selected.sort(key=lambda x: x["id"])
 
     out = {}
-    for item in deduped[:N_CHARACTERS]:
-        _id = str(item["id"])
-        out[_id] = {
+    for item in selected[:N_CHARACTERS]:
+        out[str(item["id"])] = {
             "name": item["name"],
             "rarity": item["rarity"],
             "element": item["element"],
@@ -298,7 +337,7 @@ def build_characters(avatars: list, textmap: dict, depot_map: dict, skill_map: d
 
 def build_weapons(weapons: list, textmap: dict) -> dict:
     out = {}
-    weapons_sorted = sorted(weapons, key=lambda x: int(x.get("id", 0)))
+    weapons_sorted = sorted(weapons, key=lambda x: int(x.get("id", 0) or 0))
 
     for w in weapons_sorted:
         if len(out) >= N_WEAPONS:
@@ -313,7 +352,8 @@ def build_weapons(weapons: list, textmap: dict) -> dict:
         if not _id or not icon:
             continue
 
-        if not str(icon).startswith("UI_EquipIcon_"):
+        icon = str(icon)
+        if not icon.startswith("UI_EquipIcon_"):
             continue
 
         try:
@@ -322,20 +362,19 @@ def build_weapons(weapons: list, textmap: dict) -> dict:
             continue
 
         weapon_type = weapon_type_short(str(wt))
-        name = textmap_lookup(textmap, name_hash)
-
-        if not name:
-            continue
         if not weapon_type:
             continue
+
         if rarity < 1 or rarity > 5:
             continue
+
+        name = textmap_lookup(textmap, name_hash) or fallback_name_from_weapon_icon(icon)
 
         out[str(_id)] = {
             "name": name,
             "rarity": rarity,
             "type": weapon_type,
-            "icon_name": str(icon),
+            "icon_name": icon,
         }
 
     return out
@@ -343,7 +382,6 @@ def build_weapons(weapons: list, textmap: dict) -> dict:
 
 def build_hash_index(items: dict) -> dict:
     idx = {}
-
     for _id, meta in items.items():
         icon_name = meta.get("icon_name")
         if not icon_name:
@@ -355,7 +393,6 @@ def build_hash_index(items: dict) -> dict:
             img = cv2.imdecode(np.frombuffer(png, np.uint8), cv2.IMREAD_UNCHANGED)
             if img is None:
                 continue
-
             img = to_bgr(img)
             idx[str(_id)] = dhash_hex(img)
         except Exception:
@@ -374,7 +411,7 @@ def main():
 
     depot_map, skill_map = build_skill_maps(avatar_skill_depots, avatar_skills)
 
-    print("Building clean characters/weapons pack...")
+    print("Building characters/weapons pack...")
     chars = build_characters(avatars, textmap, depot_map, skill_map)
     weaps = build_weapons(weapons, textmap)
 
