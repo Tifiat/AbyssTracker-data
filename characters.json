@@ -1,11 +1,4 @@
 {
-  "10000001": {
-    "name": "Kate",
-    "rarity": 4,
-    "element": "Electro",
-    "weapon_type": "Sword",
-    "icon_name": "UI_AvatarIcon_Kate"
-  },
   "10000002": {
     "name": "Ayaka",
     "rarity": 5,
@@ -782,12 +775,5 @@
     "element": "Geo",
     "weapon_type": "Bow",
     "icon_name": "UI_AvatarIcon_Linnea"
-  },
-  "11000037": {
-    "name": "PlayerBoy",
-    "rarity": 4,
-    "element": "Cryo",
-    "weapon_type": "Bow",
-    "icon_name": "UI_AvatarIcon_PlayerBoy"
   }
 }
