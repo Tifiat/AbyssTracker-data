@@ -1,1 +1,1580 @@
-{}
+{
+  "10002": {
+    "name": "Sword Template",
+    "rarity": 1,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Template"
+  },
+  "10003": {
+    "name": "Claymore Template",
+    "rarity": 1,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Template"
+  },
+  "10004": {
+    "name": "Pole Template",
+    "rarity": 1,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Template"
+  },
+  "10005": {
+    "name": "Catalyst BookTemplate",
+    "rarity": 1,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_BookTemplate"
+  },
+  "10006": {
+    "name": "Catalyst Template",
+    "rarity": 1,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Template"
+  },
+  "10008": {
+    "name": "Bow Template",
+    "rarity": 1,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Template"
+  },
+  "10009": {
+    "name": "Sword Template",
+    "rarity": 1,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Template"
+  },
+  "11101": {
+    "name": "Sword Blunt",
+    "rarity": 1,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Blunt"
+  },
+  "11201": {
+    "name": "Sword Silver",
+    "rarity": 2,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Silver"
+  },
+  "11301": {
+    "name": "Sword Steel",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Steel"
+  },
+  "11302": {
+    "name": "Sword Dawn",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Dawn"
+  },
+  "11303": {
+    "name": "Sword Traveler",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Traveler"
+  },
+  "11304": {
+    "name": "Sword Darker",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Darker"
+  },
+  "11305": {
+    "name": "Sword Sashimi",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Sashimi"
+  },
+  "11306": {
+    "name": "Sword Mitsurugi",
+    "rarity": 3,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Mitsurugi"
+  },
+  "11401": {
+    "name": "Sword Zephyrus",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Zephyrus"
+  },
+  "11402": {
+    "name": "Sword Troupe",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Troupe"
+  },
+  "11403": {
+    "name": "Sword Fossil",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Fossil"
+  },
+  "11404": {
+    "name": "Sword Theocrat",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Theocrat"
+  },
+  "11405": {
+    "name": "Sword Rockkiller",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Rockkiller"
+  },
+  "11406": {
+    "name": "Sword Proto",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Proto"
+  },
+  "11407": {
+    "name": "Sword Exotic",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Exotic"
+  },
+  "11408": {
+    "name": "Sword Blackrock",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Blackrock"
+  },
+  "11409": {
+    "name": "Sword Bloodstained",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Bloodstained"
+  },
+  "11410": {
+    "name": "Sword Outlaw",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Outlaw"
+  },
+  "11411": {
+    "name": "Sword Blunt",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Blunt"
+  },
+  "11412": {
+    "name": "Sword Psalmus",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Psalmus"
+  },
+  "11413": {
+    "name": "Sword Magnum",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Magnum"
+  },
+  "11414": {
+    "name": "Sword Bakufu",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Bakufu"
+  },
+  "11415": {
+    "name": "Sword Opus",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Opus"
+  },
+  "11416": {
+    "name": "Sword Youtou",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Youtou"
+  },
+  "11417": {
+    "name": "Sword Arakalari",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Arakalari"
+  },
+  "11418": {
+    "name": "Sword Pleroma",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Pleroma"
+  },
+  "11419": {
+    "name": "Sword YoutouEnchanted",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_YoutouEnchanted"
+  },
+  "11420": {
+    "name": "Sword YoutouShattered",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_YoutouShattered"
+  },
+  "11421": {
+    "name": "Sword YoutouEnchanted",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_YoutouEnchanted"
+  },
+  "11422": {
+    "name": "Sword Kasabouzu",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Kasabouzu"
+  },
+  "11424": {
+    "name": "Sword Boreas",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Boreas"
+  },
+  "11425": {
+    "name": "Sword Vorpal",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Vorpal"
+  },
+  "11426": {
+    "name": "Sword Machination",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Machination"
+  },
+  "11427": {
+    "name": "Sword Mechanic",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Mechanic"
+  },
+  "11428": {
+    "name": "Sword Purewill",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Purewill"
+  },
+  "11429": {
+    "name": "Sword Purewill",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Purewill"
+  },
+  "11430": {
+    "name": "Sword Umpakati",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Umpakati"
+  },
+  "11431": {
+    "name": "Sword Isikhulu",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Isikhulu"
+  },
+  "11432": {
+    "name": "Sword SacrificialNgombe",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_SacrificialNgombe"
+  },
+  "11433": {
+    "name": "Sword Ilmarinen",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Ilmarinen"
+  },
+  "11434": {
+    "name": "Sword Miekka",
+    "rarity": 4,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Miekka"
+  },
+  "11501": {
+    "name": "Sword Falcon",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Falcon"
+  },
+  "11502": {
+    "name": "Sword Dvalin",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Dvalin"
+  },
+  "11503": {
+    "name": "Sword Widsith",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Widsith"
+  },
+  "11504": {
+    "name": "Sword Kunwu",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Kunwu"
+  },
+  "11505": {
+    "name": "Sword Morax",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Morax"
+  },
+  "11506": {
+    "name": "Sword Blunt",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Blunt"
+  },
+  "11507": {
+    "name": "Sword Blunt",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Blunt"
+  },
+  "11508": {
+    "name": "Sword Blunt",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Blunt"
+  },
+  "11509": {
+    "name": "Sword Narukami",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Narukami"
+  },
+  "11510": {
+    "name": "Sword Amenoma",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Amenoma"
+  },
+  "11511": {
+    "name": "Sword Deshret",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Deshret"
+  },
+  "11512": {
+    "name": "Sword Ayus",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Ayus"
+  },
+  "11513": {
+    "name": "Sword Regalis",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Regalis"
+  },
+  "11514": {
+    "name": "Sword Needle",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Needle"
+  },
+  "11515": {
+    "name": "Sword Estoc",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Estoc"
+  },
+  "11516": {
+    "name": "Sword XochitlsTube",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_XochitlsTube"
+  },
+  "11517": {
+    "name": "Sword OuterSword",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_OuterSword"
+  },
+  "11518": {
+    "name": "Sword Motsognir",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_Motsognir"
+  },
+  "11519": {
+    "name": "Sword SilverwareSaw",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_Sword_SilverwareSaw"
+  },
+  "12101": {
+    "name": "Claymore Aniki",
+    "rarity": 1,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Aniki"
+  },
+  "12201": {
+    "name": "Claymore Oyaji",
+    "rarity": 2,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Oyaji"
+  },
+  "12301": {
+    "name": "Claymore Glaive",
+    "rarity": 3,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Glaive"
+  },
+  "12302": {
+    "name": "Claymore Siegfry",
+    "rarity": 3,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Siegfry"
+  },
+  "12303": {
+    "name": "Claymore Tin",
+    "rarity": 3,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Tin"
+  },
+  "12304": {
+    "name": "Claymore Quartz",
+    "rarity": 3,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Quartz"
+  },
+  "12305": {
+    "name": "Claymore Reasoning",
+    "rarity": 3,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Reasoning"
+  },
+  "12306": {
+    "name": "Claymore Mitsurugi",
+    "rarity": 3,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Mitsurugi"
+  },
+  "12401": {
+    "name": "Claymore Zephyrus",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Zephyrus"
+  },
+  "12402": {
+    "name": "Claymore Troupe",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Troupe"
+  },
+  "12403": {
+    "name": "Claymore Fossil",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Fossil"
+  },
+  "12404": {
+    "name": "Claymore Theocrat",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Theocrat"
+  },
+  "12405": {
+    "name": "Claymore Perdue",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Perdue"
+  },
+  "12406": {
+    "name": "Claymore Proto",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Proto"
+  },
+  "12407": {
+    "name": "Claymore Exotic",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Exotic"
+  },
+  "12408": {
+    "name": "Claymore Blackrock",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Blackrock"
+  },
+  "12409": {
+    "name": "Claymore Kione",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Kione"
+  },
+  "12410": {
+    "name": "Claymore Lapis",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Lapis"
+  },
+  "12411": {
+    "name": "Claymore Dragonfell",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Dragonfell"
+  },
+  "12412": {
+    "name": "Claymore MillenniaTuna",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_MillenniaTuna"
+  },
+  "12414": {
+    "name": "Claymore Bakufu",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Bakufu"
+  },
+  "12415": {
+    "name": "Claymore Pleroma",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Pleroma"
+  },
+  "12416": {
+    "name": "Claymore Maria",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Maria"
+  },
+  "12417": {
+    "name": "Claymore Arakalari",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Arakalari"
+  },
+  "12418": {
+    "name": "Claymore Fleurfair",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Fleurfair"
+  },
+  "12424": {
+    "name": "Claymore BeastTamer",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_BeastTamer"
+  },
+  "12425": {
+    "name": "Claymore Vorpal",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Vorpal"
+  },
+  "12426": {
+    "name": "Claymore Champion",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Champion"
+  },
+  "12427": {
+    "name": "Claymore Mechanic",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Mechanic"
+  },
+  "12430": {
+    "name": "Claymore Umpakati",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Umpakati"
+  },
+  "12431": {
+    "name": "Claymore Isikhulu",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Isikhulu"
+  },
+  "12432": {
+    "name": "Claymore Polilith",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Polilith"
+  },
+  "12433": {
+    "name": "Claymore Ilmarinen",
+    "rarity": 4,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Ilmarinen"
+  },
+  "12501": {
+    "name": "Claymore Dvalin",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Dvalin"
+  },
+  "12502": {
+    "name": "Claymore Wolfmound",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Wolfmound"
+  },
+  "12503": {
+    "name": "Claymore Widsith",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Widsith"
+  },
+  "12504": {
+    "name": "Claymore Kunwu",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Kunwu"
+  },
+  "12505": {
+    "name": "Claymore Aniki",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Aniki"
+  },
+  "12506": {
+    "name": "Claymore Aniki",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Aniki"
+  },
+  "12508": {
+    "name": "Claymore Aniki",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Aniki"
+  },
+  "12509": {
+    "name": "Claymore Aniki",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Aniki"
+  },
+  "12510": {
+    "name": "Claymore Itadorimaru",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Itadorimaru"
+  },
+  "12511": {
+    "name": "Claymore Deshret",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_Deshret"
+  },
+  "12512": {
+    "name": "Claymore GoldenVerdict",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_GoldenVerdict"
+  },
+  "12513": {
+    "name": "Claymore EmeraldSword",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_EmeraldSword"
+  },
+  "12514": {
+    "name": "Claymore RadianceSword",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_RadianceSword"
+  },
+  "12515": {
+    "name": "Claymore EnsisAquilonis",
+    "rarity": 5,
+    "type": "Claymore",
+    "icon_name": "UI_EquipIcon_Claymore_EnsisAquilonis"
+  },
+  "13101": {
+    "name": "Pole Gewalt",
+    "rarity": 1,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Gewalt"
+  },
+  "13201": {
+    "name": "Pole Rod",
+    "rarity": 2,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Rod"
+  },
+  "13301": {
+    "name": "Pole Ruby",
+    "rarity": 3,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Ruby"
+  },
+  "13302": {
+    "name": "Pole Halberd",
+    "rarity": 3,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Halberd"
+  },
+  "13303": {
+    "name": "Pole Noire",
+    "rarity": 3,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Noire"
+  },
+  "13304": {
+    "name": "Pole Flagpole",
+    "rarity": 3,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Flagpole"
+  },
+  "13401": {
+    "name": "Pole Stardust",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Stardust"
+  },
+  "13402": {
+    "name": "Pole Proto",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Proto"
+  },
+  "13403": {
+    "name": "Pole Exotic",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Exotic"
+  },
+  "13404": {
+    "name": "Pole Blackrock",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Blackrock"
+  },
+  "13405": {
+    "name": "Pole Gladiator",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Gladiator"
+  },
+  "13406": {
+    "name": "Pole Lapis",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Lapis"
+  },
+  "13407": {
+    "name": "Pole Zephyrus",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Zephyrus"
+  },
+  "13408": {
+    "name": "Pole Theocrat",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Theocrat"
+  },
+  "13409": {
+    "name": "Pole Everfrost",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Everfrost"
+  },
+  "13414": {
+    "name": "Pole Bakufu",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Bakufu"
+  },
+  "13415": {
+    "name": "Pole Mori",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Mori"
+  },
+  "13416": {
+    "name": "Pole Maria",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Maria"
+  },
+  "13417": {
+    "name": "Pole Arakalari",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Arakalari"
+  },
+  "13419": {
+    "name": "Pole Windvane",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Windvane"
+  },
+  "13424": {
+    "name": "Pole Shanty",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Shanty"
+  },
+  "13425": {
+    "name": "Pole Vorpal",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Vorpal"
+  },
+  "13426": {
+    "name": "Pole Caduceus",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Caduceus"
+  },
+  "13427": {
+    "name": "Pole Mechanic",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Mechanic"
+  },
+  "13430": {
+    "name": "Pole Umpakati",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Umpakati"
+  },
+  "13431": {
+    "name": "Pole Isikhulu",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Isikhulu"
+  },
+  "13432": {
+    "name": "Pole Aoandon",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Aoandon"
+  },
+  "13433": {
+    "name": "Pole Ilmarinen",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Ilmarinen"
+  },
+  "13434": {
+    "name": "Pole Krivule",
+    "rarity": 4,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Krivule"
+  },
+  "13501": {
+    "name": "Pole Homa",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Homa"
+  },
+  "13502": {
+    "name": "Pole Dvalin",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Dvalin"
+  },
+  "13503": {
+    "name": "Pole Gewalt",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Gewalt"
+  },
+  "13504": {
+    "name": "Pole Kunwu",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Kunwu"
+  },
+  "13505": {
+    "name": "Pole Morax",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Morax"
+  },
+  "13506": {
+    "name": "Pole Gewalt",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Gewalt"
+  },
+  "13507": {
+    "name": "Pole Santika",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Santika"
+  },
+  "13509": {
+    "name": "Pole Narukami",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Narukami"
+  },
+  "13511": {
+    "name": "Pole Deshret",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Deshret"
+  },
+  "13512": {
+    "name": "Pole BloodMoon",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_BloodMoon"
+  },
+  "13513": {
+    "name": "Pole Muguet",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Muguet"
+  },
+  "13514": {
+    "name": "Pole Trident",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Trident"
+  },
+  "13515": {
+    "name": "Pole Perdix",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Perdix"
+  },
+  "13516": {
+    "name": "Pole TummaLyhty",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_TummaLyhty"
+  },
+  "14101": {
+    "name": "Catalyst Apprentice",
+    "rarity": 1,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Apprentice"
+  },
+  "14201": {
+    "name": "Catalyst Pocket",
+    "rarity": 2,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Pocket"
+  },
+  "14301": {
+    "name": "Catalyst Intro",
+    "rarity": 3,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Intro"
+  },
+  "14302": {
+    "name": "Catalyst Pulpfic",
+    "rarity": 3,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Pulpfic"
+  },
+  "14303": {
+    "name": "Catalyst Lightnov",
+    "rarity": 3,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Lightnov"
+  },
+  "14304": {
+    "name": "Catalyst Jade",
+    "rarity": 3,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Jade"
+  },
+  "14305": {
+    "name": "Catalyst Phoney",
+    "rarity": 3,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Phoney"
+  },
+  "14306": {
+    "name": "Catalyst Amber",
+    "rarity": 3,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Amber"
+  },
+  "14401": {
+    "name": "Catalyst Zephyrus",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Zephyrus"
+  },
+  "14402": {
+    "name": "Catalyst Troupe",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Troupe"
+  },
+  "14403": {
+    "name": "Catalyst Fossil",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Fossil"
+  },
+  "14404": {
+    "name": "Catalyst Theocrat",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Theocrat"
+  },
+  "14405": {
+    "name": "Catalyst Resurrection",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Resurrection"
+  },
+  "14406": {
+    "name": "Catalyst Proto",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Proto"
+  },
+  "14407": {
+    "name": "Catalyst Exotic",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Exotic"
+  },
+  "14408": {
+    "name": "Catalyst Blackrock",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Blackrock"
+  },
+  "14409": {
+    "name": "Catalyst Truelens",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Truelens"
+  },
+  "14410": {
+    "name": "Catalyst Outlaw",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Outlaw"
+  },
+  "14411": {
+    "name": "Catalyst Apprentice",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Apprentice"
+  },
+  "14412": {
+    "name": "Catalyst Everfrost",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Everfrost"
+  },
+  "14413": {
+    "name": "Catalyst Ludiharpastum",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Ludiharpastum"
+  },
+  "14414": {
+    "name": "Catalyst Bakufu",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Bakufu"
+  },
+  "14415": {
+    "name": "Catalyst Jyanome",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Jyanome"
+  },
+  "14416": {
+    "name": "Catalyst Pleroma",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Pleroma"
+  },
+  "14417": {
+    "name": "Catalyst Arakalari",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Arakalari"
+  },
+  "14424": {
+    "name": "Catalyst Yue",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Yue"
+  },
+  "14425": {
+    "name": "Catalyst Vorpal",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Vorpal"
+  },
+  "14426": {
+    "name": "Catalyst DandelionPoem",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_DandelionPoem"
+  },
+  "14427": {
+    "name": "Catalyst ConchSprayer",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_ConchSprayer"
+  },
+  "14430": {
+    "name": "Catalyst Umpakati",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Umpakati"
+  },
+  "14431": {
+    "name": "Catalyst Isikhulu",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Isikhulu"
+  },
+  "14432": {
+    "name": "Catalyst SeeliesLute",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_SeeliesLute"
+  },
+  "14433": {
+    "name": "Catalyst Ilmarinen",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Ilmarinen"
+  },
+  "14434": {
+    "name": "Catalyst Ziedas",
+    "rarity": 4,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Ziedas"
+  },
+  "14501": {
+    "name": "Catalyst Dvalin",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Dvalin"
+  },
+  "14502": {
+    "name": "Catalyst Fourwinds",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Fourwinds"
+  },
+  "14503": {
+    "name": "Catalyst Apprentice",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Apprentice"
+  },
+  "14504": {
+    "name": "Catalyst Kunwu",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Kunwu"
+  },
+  "14505": {
+    "name": "Catalyst Morax",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Morax"
+  },
+  "14506": {
+    "name": "Catalyst Kaleido",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Kaleido"
+  },
+  "14508": {
+    "name": "Catalyst Apprentice",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Apprentice"
+  },
+  "14509": {
+    "name": "Catalyst Narukami",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Narukami"
+  },
+  "14511": {
+    "name": "Catalyst Ayus",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Ayus"
+  },
+  "14512": {
+    "name": "Catalyst Alaya",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Alaya"
+  },
+  "14513": {
+    "name": "Catalyst Wheatley",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Wheatley"
+  },
+  "14514": {
+    "name": "Catalyst Iudex",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Iudex"
+  },
+  "14515": {
+    "name": "Catalyst MountainGale",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_MountainGale"
+  },
+  "14516": {
+    "name": "Catalyst MechaPufferfish",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_MechaPufferfish"
+  },
+  "14517": {
+    "name": "Catalyst Figurines",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Figurines"
+  },
+  "14518": {
+    "name": "Catalyst SakuraFan",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_SakuraFan"
+  },
+  "14519": {
+    "name": "Catalyst VaresaTransformer",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_VaresaTransformer"
+  },
+  "14520": {
+    "name": "Catalyst MenulisRing",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_MenulisRing"
+  },
+  "14521": {
+    "name": "Catalyst Sistrum",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Sistrum"
+  },
+  "14522": {
+    "name": "Catalyst Brisingamen",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_Brisingamen"
+  },
+  "15101": {
+    "name": "Bow Hunters",
+    "rarity": 1,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Hunters"
+  },
+  "15201": {
+    "name": "Bow Old",
+    "rarity": 2,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Old"
+  },
+  "15301": {
+    "name": "Bow Crowfeather",
+    "rarity": 3,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Crowfeather"
+  },
+  "15302": {
+    "name": "Bow Arjuna",
+    "rarity": 3,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Arjuna"
+  },
+  "15303": {
+    "name": "Bow Curve",
+    "rarity": 3,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Curve"
+  },
+  "15304": {
+    "name": "Bow Sling",
+    "rarity": 3,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Sling"
+  },
+  "15305": {
+    "name": "Bow Msg",
+    "rarity": 3,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Msg"
+  },
+  "15306": {
+    "name": "Bow Hardwood",
+    "rarity": 3,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Hardwood"
+  },
+  "15401": {
+    "name": "Bow Zephyrus",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Zephyrus"
+  },
+  "15402": {
+    "name": "Bow Troupe",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Troupe"
+  },
+  "15403": {
+    "name": "Bow Fossil",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Fossil"
+  },
+  "15404": {
+    "name": "Bow Theocrat",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Theocrat"
+  },
+  "15405": {
+    "name": "Bow Recluse",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Recluse"
+  },
+  "15406": {
+    "name": "Bow Proto",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Proto"
+  },
+  "15407": {
+    "name": "Bow Exotic",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Exotic"
+  },
+  "15408": {
+    "name": "Bow Blackrock",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Blackrock"
+  },
+  "15409": {
+    "name": "Bow Viridescent",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Viridescent"
+  },
+  "15410": {
+    "name": "Bow Outlaw",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Outlaw"
+  },
+  "15411": {
+    "name": "Bow Fallensun",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Fallensun"
+  },
+  "15412": {
+    "name": "Bow Nachtblind",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Nachtblind"
+  },
+  "15413": {
+    "name": "Bow Fleurfair",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Fleurfair"
+  },
+  "15414": {
+    "name": "Bow Bakufu",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Bakufu"
+  },
+  "15415": {
+    "name": "Bow Predator",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Predator"
+  },
+  "15416": {
+    "name": "Bow Maria",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Maria"
+  },
+  "15417": {
+    "name": "Bow Arakalari",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Arakalari"
+  },
+  "15418": {
+    "name": "Bow Fin",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Fin"
+  },
+  "15419": {
+    "name": "Bow Ibis",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Ibis"
+  },
+  "15424": {
+    "name": "Bow Gurabad",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Gurabad"
+  },
+  "15425": {
+    "name": "Bow Vorpal",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Vorpal"
+  },
+  "15426": {
+    "name": "Bow Ultimatum",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Ultimatum"
+  },
+  "15427": {
+    "name": "Bow Mechanic",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Mechanic"
+  },
+  "15430": {
+    "name": "Bow Umpakati",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Umpakati"
+  },
+  "15431": {
+    "name": "Bow Isikhulu",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Isikhulu"
+  },
+  "15432": {
+    "name": "Bow Stinger",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Stinger"
+  },
+  "15433": {
+    "name": "Bow Ilmarinen",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Ilmarinen"
+  },
+  "15434": {
+    "name": "Bow ElegguaBow",
+    "rarity": 4,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_ElegguaBow"
+  },
+  "15501": {
+    "name": "Bow Dvalin",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Dvalin"
+  },
+  "15502": {
+    "name": "Bow Amos",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Amos"
+  },
+  "15503": {
+    "name": "Bow Widsith",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Widsith"
+  },
+  "15504": {
+    "name": "Bow Hunters",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Hunters"
+  },
+  "15505": {
+    "name": "Bow Hunters",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Hunters"
+  },
+  "15506": {
+    "name": "Bow Hunters",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Hunters"
+  },
+  "15507": {
+    "name": "Bow Worldbane",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Worldbane"
+  },
+  "15508": {
+    "name": "Bow Kirin",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Kirin"
+  },
+  "15509": {
+    "name": "Bow Narukami",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Narukami"
+  },
+  "15511": {
+    "name": "Bow Ayus",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Ayus"
+  },
+  "15512": {
+    "name": "Bow Pledge",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Pledge"
+  },
+  "15513": {
+    "name": "Bow Arcdange",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Arcdange"
+  },
+  "15514": {
+    "name": "Bow Qoyllorsnova",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Qoyllorsnova"
+  },
+  "15515": {
+    "name": "Bow Arianna",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Arianna"
+  },
+  "15516": {
+    "name": "Bow Alkonost",
+    "rarity": 5,
+    "type": "Bow",
+    "icon_name": "UI_EquipIcon_Bow_Alkonost"
+  },
+  "20001": {
+    "name": "FishingRod",
+    "rarity": 5,
+    "type": "Sword",
+    "icon_name": "UI_EquipIcon_FishingRod"
+  }
+}
