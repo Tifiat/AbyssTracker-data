@@ -3,7 +3,7 @@ name: Update data-pack
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * *"  # каждый день 03:00 UTC
+    - cron: "0 3 */20 * *"  # каждые 20 дней 03:00 UTC
 
 permissions:
   contents: write
