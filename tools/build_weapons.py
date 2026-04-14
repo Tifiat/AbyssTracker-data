@@ -6,7 +6,43 @@ from build_common import (
     fallback_name_from_weapon_icon,
 )
 
-N_WEAPONS = int(os.environ.get("N_WEAPONS", "300"))
+
+TECHNICAL_ICON_SUBSTRINGS = (
+    "_Template",
+    "FishingRod",
+)
+
+
+def is_candidate_weapon(w: dict) -> bool:
+    _id = w.get("id")
+    icon = w.get("icon")
+    wt = w.get("weaponType")
+    rank_level = w.get("rankLevel")
+
+    if not _id or not icon:
+        return False
+
+    icon = str(icon)
+    if not icon.startswith("UI_EquipIcon_"):
+        return False
+
+    for bad in TECHNICAL_ICON_SUBSTRINGS:
+        if bad in icon:
+            return False
+
+    try:
+        rarity = int(rank_level)
+    except Exception:
+        return False
+
+    if rarity < 1 or rarity > 5:
+        return False
+
+    weapon_type = weapon_type_short(str(wt))
+    if not weapon_type:
+        return False
+
+    return True
 
 
 def build_weapons(weapons: list, textmap: dict) -> dict:
@@ -14,33 +50,14 @@ def build_weapons(weapons: list, textmap: dict) -> dict:
     weapons_sorted = sorted(weapons, key=lambda x: int(x.get("id", 0) or 0))
 
     for w in weapons_sorted:
-        if len(out) >= N_WEAPONS:
-            break
+        if not is_candidate_weapon(w):
+            continue
 
-        _id = w.get("id")
-        icon = w.get("icon")
-        wt = w.get("weaponType")
-        rank_level = w.get("rankLevel")
+        _id = int(w.get("id"))
+        icon = str(w.get("icon"))
+        weapon_type = weapon_type_short(str(w.get("weaponType")))
+        rarity = int(w.get("rankLevel"))
         name_hash = w.get("nameTextMapHash")
-
-        if not _id or not icon:
-            continue
-
-        icon = str(icon)
-        if not icon.startswith("UI_EquipIcon_"):
-            continue
-
-        try:
-            rarity = int(rank_level)
-        except Exception:
-            continue
-
-        weapon_type = weapon_type_short(str(wt))
-        if not weapon_type:
-            continue
-
-        if rarity < 1 or rarity > 5:
-            continue
 
         name = textmap_lookup(textmap, name_hash) or fallback_name_from_weapon_icon(icon)
 
