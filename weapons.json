@@ -107,12 +107,6 @@
     "type": "Sword",
     "icon_name": "UI_EquipIcon_Sword_Outlaw"
   },
-  "11411": {
-    "name": "Sword Blunt",
-    "rarity": 4,
-    "type": "Sword",
-    "icon_name": "UI_EquipIcon_Sword_Blunt"
-  },
   "11412": {
     "name": "Sword Psalmus",
     "rarity": 4,
@@ -167,12 +161,6 @@
     "type": "Sword",
     "icon_name": "UI_EquipIcon_Sword_YoutouShattered"
   },
-  "11421": {
-    "name": "Sword YoutouEnchanted",
-    "rarity": 4,
-    "type": "Sword",
-    "icon_name": "UI_EquipIcon_Sword_YoutouEnchanted"
-  },
   "11422": {
     "name": "Sword Kasabouzu",
     "rarity": 4,
@@ -204,12 +192,6 @@
     "icon_name": "UI_EquipIcon_Sword_Mechanic"
   },
   "11428": {
-    "name": "Sword Purewill",
-    "rarity": 4,
-    "type": "Sword",
-    "icon_name": "UI_EquipIcon_Sword_Purewill"
-  },
-  "11429": {
     "name": "Sword Purewill",
     "rarity": 4,
     "type": "Sword",
@@ -274,24 +256,6 @@
     "rarity": 5,
     "type": "Sword",
     "icon_name": "UI_EquipIcon_Sword_Morax"
-  },
-  "11506": {
-    "name": "Sword Blunt",
-    "rarity": 5,
-    "type": "Sword",
-    "icon_name": "UI_EquipIcon_Sword_Blunt"
-  },
-  "11507": {
-    "name": "Sword Blunt",
-    "rarity": 5,
-    "type": "Sword",
-    "icon_name": "UI_EquipIcon_Sword_Blunt"
-  },
-  "11508": {
-    "name": "Sword Blunt",
-    "rarity": 5,
-    "type": "Sword",
-    "icon_name": "UI_EquipIcon_Sword_Blunt"
   },
   "11509": {
     "name": "Sword Narukami",
@@ -575,30 +539,6 @@
     "type": "Claymore",
     "icon_name": "UI_EquipIcon_Claymore_Kunwu"
   },
-  "12505": {
-    "name": "Claymore Aniki",
-    "rarity": 5,
-    "type": "Claymore",
-    "icon_name": "UI_EquipIcon_Claymore_Aniki"
-  },
-  "12506": {
-    "name": "Claymore Aniki",
-    "rarity": 5,
-    "type": "Claymore",
-    "icon_name": "UI_EquipIcon_Claymore_Aniki"
-  },
-  "12508": {
-    "name": "Claymore Aniki",
-    "rarity": 5,
-    "type": "Claymore",
-    "icon_name": "UI_EquipIcon_Claymore_Aniki"
-  },
-  "12509": {
-    "name": "Claymore Aniki",
-    "rarity": 5,
-    "type": "Claymore",
-    "icon_name": "UI_EquipIcon_Claymore_Aniki"
-  },
   "12510": {
     "name": "Claymore Itadorimaru",
     "rarity": 5,
@@ -815,12 +755,6 @@
     "type": "Polearm",
     "icon_name": "UI_EquipIcon_Pole_Dvalin"
   },
-  "13503": {
-    "name": "Pole Gewalt",
-    "rarity": 5,
-    "type": "Polearm",
-    "icon_name": "UI_EquipIcon_Pole_Gewalt"
-  },
   "13504": {
     "name": "Pole Kunwu",
     "rarity": 5,
@@ -832,12 +766,6 @@
     "rarity": 5,
     "type": "Polearm",
     "icon_name": "UI_EquipIcon_Pole_Morax"
-  },
-  "13506": {
-    "name": "Pole Gewalt",
-    "rarity": 5,
-    "type": "Polearm",
-    "icon_name": "UI_EquipIcon_Pole_Gewalt"
   },
   "13507": {
     "name": "Pole Santika",
@@ -989,12 +917,6 @@
     "type": "Catalyst",
     "icon_name": "UI_EquipIcon_Catalyst_Outlaw"
   },
-  "14411": {
-    "name": "Catalyst Apprentice",
-    "rarity": 4,
-    "type": "Catalyst",
-    "icon_name": "UI_EquipIcon_Catalyst_Apprentice"
-  },
   "14412": {
     "name": "Catalyst Everfrost",
     "rarity": 4,
@@ -1097,12 +1019,6 @@
     "type": "Catalyst",
     "icon_name": "UI_EquipIcon_Catalyst_Fourwinds"
   },
-  "14503": {
-    "name": "Catalyst Apprentice",
-    "rarity": 5,
-    "type": "Catalyst",
-    "icon_name": "UI_EquipIcon_Catalyst_Apprentice"
-  },
   "14504": {
     "name": "Catalyst Kunwu",
     "rarity": 5,
@@ -1120,12 +1036,6 @@
     "rarity": 5,
     "type": "Catalyst",
     "icon_name": "UI_EquipIcon_Catalyst_Kaleido"
-  },
-  "14508": {
-    "name": "Catalyst Apprentice",
-    "rarity": 5,
-    "type": "Catalyst",
-    "icon_name": "UI_EquipIcon_Catalyst_Apprentice"
   },
   "14509": {
     "name": "Catalyst Narukami",
@@ -1432,24 +1342,6 @@
     "rarity": 5,
     "type": "Bow",
     "icon_name": "UI_EquipIcon_Bow_Widsith"
-  },
-  "15504": {
-    "name": "Bow Hunters",
-    "rarity": 5,
-    "type": "Bow",
-    "icon_name": "UI_EquipIcon_Bow_Hunters"
-  },
-  "15505": {
-    "name": "Bow Hunters",
-    "rarity": 5,
-    "type": "Bow",
-    "icon_name": "UI_EquipIcon_Bow_Hunters"
-  },
-  "15506": {
-    "name": "Bow Hunters",
-    "rarity": 5,
-    "type": "Bow",
-    "icon_name": "UI_EquipIcon_Bow_Hunters"
   },
   "15507": {
     "name": "Bow Worldbane",
