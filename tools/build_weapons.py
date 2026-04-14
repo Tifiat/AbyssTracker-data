@@ -1,5 +1,3 @@
-import os
-
 from build_common import (
     weapon_type_short,
     textmap_lookup,
@@ -46,7 +44,8 @@ def is_candidate_weapon(w: dict) -> bool:
 
 
 def build_weapons(weapons: list, textmap: dict) -> dict:
-    out = {}
+    grouped = {}
+
     weapons_sorted = sorted(weapons, key=lambda x: int(x.get("id", 0) or 0))
 
     for w in weapons_sorted:
@@ -61,11 +60,27 @@ def build_weapons(weapons: list, textmap: dict) -> dict:
 
         name = textmap_lookup(textmap, name_hash) or fallback_name_from_weapon_icon(icon)
 
-        out[str(_id)] = {
+        payload = {
+            "id": _id,
             "name": name,
             "rarity": rarity,
             "type": weapon_type,
             "icon_name": icon,
+        }
+
+        prev = grouped.get(icon)
+        if prev is None or _id < prev["id"]:
+            grouped[icon] = payload
+
+    selected = sorted(grouped.values(), key=lambda x: x["id"])
+
+    out = {}
+    for item in selected:
+        out[str(item["id"])] = {
+            "name": item["name"],
+            "rarity": item["rarity"],
+            "type": item["type"],
+            "icon_name": item["icon_name"],
         }
 
     return out
