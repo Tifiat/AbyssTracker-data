@@ -1,3 +1,4 @@
+import json
 import os
 from datetime import datetime, timezone
 
@@ -17,7 +18,6 @@ from build_weapons import build_weapons
 
 # ====== CONFIG ======
 N_CHARACTERS = int(os.environ.get("N_CHARACTERS", "300"))
-N_WEAPONS = int(os.environ.get("N_WEAPONS", "300"))
 
 ANIMEGAMEDATA_BASE = "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/master"
 URL_AVATARS = f"{ANIMEGAMEDATA_BASE}/ExcelBinOutput/AvatarExcelConfigData.json"
@@ -34,25 +34,81 @@ OUT_WEAP = os.path.join(OUT_DIR, "weapons.json")
 OUT_HIDX_CHAR = os.path.join(OUT_DIR, "hash_index_characters.json")
 OUT_HIDX_WEAP = os.path.join(OUT_DIR, "hash_index_weapons.json")
 OUT_MANIFEST = os.path.join(OUT_DIR, "manifest.json")
+OUT_ENKA_ICON_STATUS = os.path.join(OUT_DIR, "enka_icon_status.json")
 
 
-def build_hash_index(items: dict) -> dict:
-    idx = {}
-    for _id, meta in items.items():
+def load_json_or_default(path: str, default):
+    if not os.path.exists(path):
+        return default
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return default
+
+
+def fetch_enka_icon_image(icon_name: str):
+    url = f"{ENKA_UI}/{icon_name}.png"
+    png = http_get_bytes(url)
+    img = cv2.imdecode(np.frombuffer(png, np.uint8), cv2.IMREAD_UNCHANGED)
+    if img is None:
+        return None
+    return to_bgr(img)
+
+
+def get_enka_icon_status(icon_name: str, status_cache: dict) -> str:
+    cached = status_cache.get(icon_name)
+    if cached in ("exists", "missing"):
+        return cached
+
+    try:
+        img = fetch_enka_icon_image(icon_name)
+        status = "exists" if img is not None else "missing"
+    except Exception:
+        status = "missing"
+
+    status_cache[icon_name] = status
+    return status
+
+
+def filter_items_by_enka_icon(items: dict, status_cache: dict, label: str) -> dict:
+    out = {}
+    total = len(items)
+
+    for i, (_id, meta) in enumerate(items.items(), start=1):
         icon_name = meta.get("icon_name")
         if not icon_name:
             continue
 
-        url = f"{ENKA_UI}/{icon_name}.png"
+        status = get_enka_icon_status(str(icon_name), status_cache)
+        if status == "exists":
+            out[str(_id)] = meta
+
+        if i % 50 == 0 or i == total:
+            print(f"[{label}] Enka checked: {i}/{total}, kept={len(out)}")
+
+    return out
+
+
+def build_hash_index(items: dict) -> dict:
+    idx = {}
+    total = len(items)
+
+    for i, (_id, meta) in enumerate(items.items(), start=1):
+        icon_name = meta.get("icon_name")
+        if not icon_name:
+            continue
+
         try:
-            png = http_get_bytes(url)
-            img = cv2.imdecode(np.frombuffer(png, np.uint8), cv2.IMREAD_UNCHANGED)
+            img = fetch_enka_icon_image(str(icon_name))
             if img is None:
                 continue
-            img = to_bgr(img)
             idx[str(_id)] = dhash_hex(img)
         except Exception:
             continue
+
+        if i % 50 == 0 or i == total:
+            print(f"[hash] processed: {i}/{total}, built={len(idx)}")
 
     return idx
 
@@ -67,12 +123,21 @@ def main():
 
     depot_map, skill_map = build_skill_maps(avatar_skill_depots, avatar_skills)
 
-    print("Building characters/weapons pack...")
+    print("Building characters pack...")
     chars = build_characters(avatars, textmap, depot_map, skill_map)
+
+    print("Building raw weapons candidates...")
     weaps = build_weapons(weapons, textmap)
+    print(f"Raw weapons candidates: {len(weaps)}")
+
+    status_cache = load_json_or_default(OUT_ENKA_ICON_STATUS, {})
+
+    print("Filtering weapons by Enka icon availability...")
+    weaps = filter_items_by_enka_icon(weaps, status_cache, label="weapons")
+    print(f"Weapons after Enka filter: {len(weaps)}")
 
     print(f"Characters selected: {len(chars)} / N={N_CHARACTERS}")
-    print(f"Weapons selected:    {len(weaps)} / N={N_WEAPONS}")
+    print(f"Weapons selected:    {len(weaps)}")
 
     print("Building hash indexes via Enka icons...")
     hidx_char = build_hash_index(chars)
@@ -85,6 +150,7 @@ def main():
     save_json(OUT_WEAP, weaps)
     save_json(OUT_HIDX_CHAR, hidx_char)
     save_json(OUT_HIDX_WEAP, hidx_weap)
+    save_json(OUT_ENKA_ICON_STATUS, status_cache)
 
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     manifest = {
@@ -107,7 +173,7 @@ def main():
         "files": {},
     }
 
-    for p in [OUT_CHAR, OUT_WEAP, OUT_HIDX_CHAR, OUT_HIDX_WEAP]:
+    for p in [OUT_CHAR, OUT_WEAP, OUT_HIDX_CHAR, OUT_HIDX_WEAP, OUT_ENKA_ICON_STATUS]:
         manifest["files"][os.path.basename(p)] = {
             "sha256": sha256_file(p)
         }
