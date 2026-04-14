@@ -1,7 +1,7 @@
 import os
 from typing import Optional, Dict, List, Tuple
 
-from tools.build_common import (
+from build_common import (
     rarity_from_quality,
     weapon_type_short,
     normalize_element,
