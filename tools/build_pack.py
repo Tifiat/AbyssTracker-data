@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 import cv2
 import numpy as np
 
-from tools.build_common import (
+from build_common import (
     http_get_json,
     http_get_bytes,
     save_json,
@@ -12,8 +12,8 @@ from tools.build_common import (
     dhash_hex,
     to_bgr,
 )
-from tools.build_characters import build_skill_maps, build_characters
-from tools.build_weapons import build_weapons
+from build_characters import build_skill_maps, build_characters
+from build_weapons import build_weapons
 
 # ====== CONFIG ======
 N_CHARACTERS = int(os.environ.get("N_CHARACTERS", "300"))
