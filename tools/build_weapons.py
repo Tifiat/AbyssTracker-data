@@ -1,6 +1,6 @@
 import os
 
-from tools.build_common import (
+from build_common import (
     weapon_type_short,
     textmap_lookup,
     fallback_name_from_weapon_icon,
