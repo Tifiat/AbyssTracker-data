@@ -1,46 +1,4 @@
 {
-  "10002": {
-    "name": "Sword Template",
-    "rarity": 1,
-    "type": "Sword",
-    "icon_name": "UI_EquipIcon_Sword_Template"
-  },
-  "10003": {
-    "name": "Claymore Template",
-    "rarity": 1,
-    "type": "Claymore",
-    "icon_name": "UI_EquipIcon_Claymore_Template"
-  },
-  "10004": {
-    "name": "Pole Template",
-    "rarity": 1,
-    "type": "Polearm",
-    "icon_name": "UI_EquipIcon_Pole_Template"
-  },
-  "10005": {
-    "name": "Catalyst BookTemplate",
-    "rarity": 1,
-    "type": "Catalyst",
-    "icon_name": "UI_EquipIcon_Catalyst_BookTemplate"
-  },
-  "10006": {
-    "name": "Catalyst Template",
-    "rarity": 1,
-    "type": "Catalyst",
-    "icon_name": "UI_EquipIcon_Catalyst_Template"
-  },
-  "10008": {
-    "name": "Bow Template",
-    "rarity": 1,
-    "type": "Bow",
-    "icon_name": "UI_EquipIcon_Bow_Template"
-  },
-  "10009": {
-    "name": "Sword Template",
-    "rarity": 1,
-    "type": "Sword",
-    "icon_name": "UI_EquipIcon_Sword_Template"
-  },
   "11101": {
     "name": "Sword Blunt",
     "rarity": 1,
@@ -431,12 +389,6 @@
     "type": "Claymore",
     "icon_name": "UI_EquipIcon_Claymore_Tin"
   },
-  "12304": {
-    "name": "Claymore Quartz",
-    "rarity": 3,
-    "type": "Claymore",
-    "icon_name": "UI_EquipIcon_Claymore_Quartz"
-  },
   "12305": {
     "name": "Claymore Reasoning",
     "rarity": 3,
@@ -713,12 +665,6 @@
     "type": "Polearm",
     "icon_name": "UI_EquipIcon_Pole_Noire"
   },
-  "13304": {
-    "name": "Pole Flagpole",
-    "rarity": 3,
-    "type": "Polearm",
-    "icon_name": "UI_EquipIcon_Pole_Flagpole"
-  },
   "13401": {
     "name": "Pole Stardust",
     "rarity": 4,
@@ -982,12 +928,6 @@
     "rarity": 3,
     "type": "Catalyst",
     "icon_name": "UI_EquipIcon_Catalyst_Phoney"
-  },
-  "14306": {
-    "name": "Catalyst Amber",
-    "rarity": 3,
-    "type": "Catalyst",
-    "icon_name": "UI_EquipIcon_Catalyst_Amber"
   },
   "14401": {
     "name": "Catalyst Zephyrus",
@@ -1307,12 +1247,6 @@
     "type": "Bow",
     "icon_name": "UI_EquipIcon_Bow_Msg"
   },
-  "15306": {
-    "name": "Bow Hardwood",
-    "rarity": 3,
-    "type": "Bow",
-    "icon_name": "UI_EquipIcon_Bow_Hardwood"
-  },
   "15401": {
     "name": "Bow Zephyrus",
     "rarity": 4,
@@ -1570,11 +1504,5 @@
     "rarity": 5,
     "type": "Bow",
     "icon_name": "UI_EquipIcon_Bow_Alkonost"
-  },
-  "20001": {
-    "name": "FishingRod",
-    "rarity": 5,
-    "type": "Sword",
-    "icon_name": "UI_EquipIcon_FishingRod"
   }
 }
