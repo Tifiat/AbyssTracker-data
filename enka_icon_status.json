@@ -236,5 +236,7 @@
   "UI_EquipIcon_Bow_Arcdange": "exists",
   "UI_EquipIcon_Bow_Qoyllorsnova": "exists",
   "UI_EquipIcon_Bow_Arianna": "exists",
-  "UI_EquipIcon_Bow_Alkonost": "exists"
+  "UI_EquipIcon_Bow_Alkonost": "exists",
+  "UI_EquipIcon_Pole_Carbine": "exists",
+  "UI_EquipIcon_Catalyst_FairyGarden": "exists"
 }

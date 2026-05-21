@@ -769,11 +769,32 @@
     "weapon_type": "Claymore",
     "icon_name": "UI_AvatarIcon_Varka"
   },
+  "10000129": {
+    "name": "Lohen",
+    "rarity": 5,
+    "element": "Cryo",
+    "weapon_type": "Polearm",
+    "icon_name": "UI_AvatarIcon_Lohen"
+  },
   "10000130": {
     "name": "Linnea",
     "rarity": 5,
     "element": "Geo",
     "weapon_type": "Bow",
     "icon_name": "UI_AvatarIcon_Linnea"
+  },
+  "10000131": {
+    "name": "Nicole",
+    "rarity": 5,
+    "element": "Pyro",
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Nicole"
+  },
+  "10000132": {
+    "name": "Prune",
+    "rarity": 4,
+    "element": "Anemo",
+    "weapon_type": "Catalyst",
+    "icon_name": "UI_AvatarIcon_Prune"
   }
 }

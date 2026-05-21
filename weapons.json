@@ -815,6 +815,12 @@
     "type": "Polearm",
     "icon_name": "UI_EquipIcon_Pole_TummaLyhty"
   },
+  "13517": {
+    "name": "Pole Carbine",
+    "rarity": 5,
+    "type": "Polearm",
+    "icon_name": "UI_EquipIcon_Pole_Carbine"
+  },
   "14101": {
     "name": "Catalyst Apprentice",
     "rarity": 1,
@@ -1114,6 +1120,12 @@
     "rarity": 5,
     "type": "Catalyst",
     "icon_name": "UI_EquipIcon_Catalyst_Brisingamen"
+  },
+  "14523": {
+    "name": "Catalyst FairyGarden",
+    "rarity": 5,
+    "type": "Catalyst",
+    "icon_name": "UI_EquipIcon_Catalyst_FairyGarden"
   },
   "15101": {
     "name": "Bow Hunters",
